@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    background-image: url('../imagens/header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 400px;
+
+
+}
+
+#navi {
+    background-color: rgba(00, 00, 00, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+#navi img {
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+
+#navi ul {
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+#navi li {
+    margin: 30px 50px 30px 50px;
+    cursor: pointer;
+    font-family: 'Young Serif', serif;
+}
+
+#navi li:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#imgheader {
+    width: 300px;
+
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%);
+    overflow: hidden;
+}
+
+#imgheader img {
+    width: 100%;
+}
+
+
+
+section {
+
+    width: 100vw;
+    background-color: rgba(00, 00, 00, 1);
+}
+
+#texto1 {
+    width: 100vw;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+
+}
+
+#texto1 p {
+    width: 500px;
+    margin: 60px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+#texto1 h1 {
+    margin-top: 30px;
+    font-family: 'Young Serif', serif;
+
+}
+
+span {
+    text-transform: uppercase;
+
+}
+
+#pratosprincipais {
+    background-image: url('../imagens/pexels-davide-baraldi-1739748.jpg');
+    background-size: cover;
+   
+    width: 100vw;
+    text-align: center;
+    border-top: solid black 2px;
+    padding-top: 50px;
+    color: aliceblue;
+    font-family: 'Young Serif', serif;
+}
+
+#imgpratos,
+#pratosdebaixo {
+    width: 100vw;
+    display: inline-block;
+    overflow: hidden;
+    height: 500px;
+    padding: 10px;
+}
+
+.primeira {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    image-rendering: pixelated;
+    margin: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 0px 20px 30px black;
+    transition: 1s;
+}
+
+
+
+.primeira:hover {
+
+    transform: scale(1.5);
+    border-radius: 50px;
+    box-shadow: none;
+
+}
